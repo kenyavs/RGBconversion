@@ -1,0 +1,15 @@
+.tooltip{	display: none;
+			background: transparent url("../img/bubble.png") 0px 0px no-repeat;
+			font-size: 12px;
+			height: 75px;
+			width: 150px;
+			margin: -14px 0px 0px 14px;
+			padding-top: 10px;
+			padding-left: 25px;
+			padding-right: 25px;
+			padding-bottom: 35px;
+			font-size: 11px;
+			color: #666;
+			z-index: 20;
+			position: absolute;
+			text-align: left;}
