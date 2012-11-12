@@ -154,7 +154,7 @@ var tooltip = tooltipElements[0];
 			
 			rgb = rgb[0]+" "+rgb[1]+" "+rgb[2];
 
-			var innerHTML = "<p>RGB: "+ rgb+" "+"<br>x16: "+hex+"<br>x2: "+binary+"<br>x32: "+base32+"<br>x64: "+base64;
+			var innerHTML = "<p>RGB: "+ rgb+" "+"<br>x16: "+hex+"<br>x2: "+binary+"<br>x32: "+base32+"<br>x64: "+base64+"</p>";
 			
 			tooltip.innerHTML = innerHTML;
 			tooltip.style.display = 'inline';
