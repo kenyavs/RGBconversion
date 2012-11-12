@@ -1,6 +1,8 @@
 var timer=0;
 var tooltipElements = document.getElementsByClassName("tooltip");
 var tooltip = tooltipElements[0];
+var canvas = document.createElement('canvas');
+
 
 	/**
  	* Calculates the binary(base 2) of a decimal(base 10) number.
@@ -179,7 +181,6 @@ var tooltip = tooltipElements[0];
 	document.addEventListener('mousemove', function(e){
 		if (e.target.nodeName == 'IMG') {
 			var	img = e.target;
-			var canvas = document.createElement('canvas');
 			
 			canvas.width = img.width;
 			canvas.height = img.height;
