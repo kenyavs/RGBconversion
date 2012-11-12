@@ -143,10 +143,7 @@ var tooltip = tooltipElements[0];
 		//timer = setTimeout(calculateConversions(x, y, ctx), 500);
 		timer = setTimeout(function(){
 			var rgb = ctx.getImageData(x,y,1,1).data;
-			var hex = '';
-			var binary = '';
-			var base32 = '';
-			var base64 = '';
+			var hex = binary = base32 = base64 = '';
 
 			for(var i = 0; i<(rgb.length)-1; i++){
 				binary += getBinary(rgb[i]);
