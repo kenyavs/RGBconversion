@@ -34,7 +34,7 @@ var tooltip = tooltipElements[0];
  	* Calculates the given base number of a decimal(base 10) number.
  	* @param {number} base, The base value to convert to.
  	* @param {number} val, The desired decimal number to be converted.
- 	* @return {string} Returns a string representation of a hexidecimal number.
+ 	* @return {string} Returns a string representation of the converted number, per base number.
  	*/
 	function getBaseX(base, val){
 
