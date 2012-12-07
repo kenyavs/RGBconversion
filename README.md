@@ -5,6 +5,6 @@ RGBconversion is a chrome extension that converts a RGB value to its correspondi
 Hover over images, a callout tooltip will display base conversions.
 
 ***
-<h3>Underway</h4>
+<h3>Underway</h3>
 If you'd just like to use the extension, you can install it automatically:
 https://chrome.google.com/webstore/
