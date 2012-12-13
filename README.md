@@ -1,7 +1,7 @@
 <h2>RGBconversion</h2>
 RGBconversion is a chrome extension that converts RGB values to their corresponding binary(base 2), hexidecimal(base 16), base 32, and base 64 values at any given point of an image.
 ***
-![alt text](https://raw.github.com/kenyavs/RGBconversion/master/rgb_screen.png"Title")
+![alt text](https://raw.github.com/kenyavs/RGBconversion/master/rgb_screen.png "Title")
 
 **<h2>Usage</h2>**
 * Open a chrome browser.
