@@ -9,8 +9,8 @@ RGBconversion is a chrome extension that converts RGB values to their correspond
 * Select "Tools" then "Extensions".
 * Click the "Load unpacked extension"
 * Select the "conversions", or directory that contains source code.
-- The extension logo should appear next to the "Tools" button and should now be active.
-+ Hover over images, a callout tooltip will display base conversions.
+* The extension logo should appear next to the "Tools" button and should now be active.
+* Hover over images, a callout tooltip will display base conversions.
 
 
 <h3>Underway</h3>
