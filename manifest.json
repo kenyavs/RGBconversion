@@ -1,0 +1,23 @@
+{
+  "name": "RGBconversions",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "converts a RGB value to its corresponding binary(base 2), hvalues at any given point of an image.",
+  "browser_action": {
+    "default_icon": "icon_128.png"
+  },
+  "background": { "scripts": ["background.js"] },
+  "permissions": [
+    "tabs", "http://*/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["http://*/*"],
+      "css": ["styles.css"],
+      "js": ["conversion.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    "bubble.png"
+  ]
+}
