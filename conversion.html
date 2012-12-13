@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<!--html>
 <head>
 <link href="css/styles.css" type="text/css" rel="stylesheet"></link>
 </head>
@@ -17,5 +17,28 @@
 	<img src="img/red.png">
 	<img src="img/neutral.jpg"/>
 </body>
+<script>
+function check(tabId, data, tab){
+	chrome.pageAction.show(tabId);
+}
+chrome.tabs.onUpdated.addListener(check);
+</script>
 <script type="text/javascript" src="js/conversion.js"></script>
+</html-->
+
+
+<html>
+<head>
+<link href="css/styles.css" type="text/css" rel="stylesheet"></link>
+<script>
+chrome.browserAction.onClicked.addListener(function(tab) {
+  chrome.tabs.executeScript(null,
+                           {file:"conversion.js"});
+});
+</script>
+<script type="text/javascript" src="js/conversion.js"></script>
+</head>
+<body style="text-align:center;">
+</body>
+
 </html>
